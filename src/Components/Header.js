@@ -1,12 +1,18 @@
 import React from "react";
-// import ApiCard from "../Components/APIcards/ApiCard"
+import styled from "styled-components";
+
+const Intro = styled.h1`
+margin: 1.5% 0 0 .5%;
+font-family: 'Press Start 2P', cursive;
+
+
+`;
 
 export default function Header(){
     return(
         
-        <div className="App-header">
-         <h1>Astronomy Photo Of The Day</h1>   
-         {/* <ApiCard /> */}
+        <div>
+         <Intro> Greetings, From Space...</Intro>   
         </div>
 
 
